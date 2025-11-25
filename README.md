@@ -95,14 +95,15 @@ According to the workflow diagram on page 8 :contentReference[oaicite:5]{index=5
 ---
 
 ## 🚀 Installation & Setup  
-1. Activate virtual Enviornment in Powershell
-python -m venv .venv
-. .venv/Scripts/Activate.ps1
-pip install -r requirements.txt
+1. Activate virtual Enviornment in Powershell:
+- python -m venv .venv
+- .venv/Scripts/Activate.ps1
+- pip install -r requirements.txt
 
-2. cd backend
- uvicorn main:app --reload --port 8000
+2. cd backend:
+ - uvicorn main:app --reload --port 8000
 
-3. cd frontend
-streamlit run streamlit_app.py
+3. cd frontend:
+- streamlit run streamlit_app.py
+
 
